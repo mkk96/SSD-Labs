@@ -1,0 +1,53 @@
+h1
+{
+    font-style: italic;
+    text-align: center;
+}
+h2,h4
+{
+    font-style: unset;
+    text-align: center;
+}
+body {
+    background-image: url("image/back.jpg");
+    background-color: #c0e7dc;
+   }
+p
+{
+    text-align: center;
+}
+.first {
+    background-color: rgb(201, 202, 202);    
+    text-align: center;
+  }
+  .second {
+    background-color: rgb(209, 151, 151);    
+    text-align: center;
+  }
+.nav 
+{
+overflow: hidden;
+background-color: rgb(236, 195, 195);
+}
+
+.nav a 
+{
+float: left;
+color: #198ae6;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.nav a:hover 
+{
+background-color: rgb(78, 92, 141);
+color: black;
+}
+
+.nav a.navherf 
+{
+background-color: #04AA6D;
+color: white;
+}
